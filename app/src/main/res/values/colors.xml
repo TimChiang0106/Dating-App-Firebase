@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="yellow">#ffde39</color>
+    <color name="topColor">#126fb8</color>
+    <color name="downColor">#ffde39</color>
+    <color name="downColor50">#80D97081</color>
+    <color name="whiteSmoke">#EBEBEB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="profile_background">#80EBEBEB</color>
+    <color name="transparent">#00000000</color>
+    <color name="ratingColor">#fbbc04</color>
+    <color name="ratingColorTint">#e2dac4</color>
+    <color name="chipDefaultColor">#e5e5e5</color>
+    <color name="chipSelectedColor">#488FED</color>
+    <color name="unclick">#e6e9f0</color>
+    <color name="statusBarColor">#000000</color>
+    <color name="black">#000000</color>
+    <color name="chipIconTint">#EBEBEB</color>
+    <color name="gold">#ffd700</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="copper">#B87333</color>
+    <color name="pink">#F896D8</color>
+    <color name="tutorial">#aa000000</color>
+    <color name="image_not_exists">#eaedf2</color>
+</resources>

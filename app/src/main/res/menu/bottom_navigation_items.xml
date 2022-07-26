@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_search"
+        android:title="@string/bottom_navigation_main"
+        android:icon="@drawable/ic_baseline_timeline_24"
+         />
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        android:title="@string/bottom_navigation_message"
+         />
+    <item android:id="@+id/action_navigation"
+        android:icon="@drawable/ic_baseline_insert_emoticon_24"
+        android:title="@string/bottom_navigation_user"
+         />
+
+
+</menu>

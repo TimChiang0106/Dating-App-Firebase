@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">noone</string>
+
+
+    MainFragment
+    <string name="user_name">UserName</string>
+    <string name="welcome">歡迎</string>
+
+
+    BottomNavigationView
+    <string name="bottom_navigation_main">未來</string>
+    <string name="bottom_navigation_message">過去</string>
+    <string name="bottom_navigation_user">現在</string>
+
+    BottomButtonHomeString
+    <string name="bottom_button_home_string">主頁</string>
+    <string name="bottom_button_search_string">搜尋</string>
+    <string name="bottom_button_user_string">我的資料</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    HomeListString
+    <string name="driver_name">DRIVER_NAME</string>
+    <string name="report_description">REPORT_DESCRIPTION</string>
+    <string name="report_time">REPORT_TIME</string>
+    <string name="driver_score">DRIVER_SCORE</string>
+    <string name="start_pairing">開始配對</string>
+    <string name="stop_paring">配對中… 停止配對</string>
+    <string name="signup_anonymous_text">點擊以繼續</string>
+    <string name="signup_title_string">匿名</string>
+
+
+    SignUp
+    <string name="signup_auth_ing">處理中</string>
+    <string name="signup_auth_success">註冊成功</string>
+    <string name="signup_auth_error">註冊失敗請聯絡我們</string>
+    <string name="anonymous_string">匿名使用者</string>
+    <string name="user_logout">登出</string>
+    <string name="alert_signout_title">確定登出嗎？</string>
+    <string name="yes">是</string>
+    <string name="no">不要</string>
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.UserFragment">
+
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:id="@+id/main_top_bar"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_scrollFlags="scroll|enterAlways">-->
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            app:layout_scrollFlags="scroll|enterAlways"-->
+<!--            app:titleTextColor="@color/black" />-->
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <ImageView
+        android:id="@+id/user_anonymous_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_user"
+        app:layout_constraintTop_toTopOf="parent"/>
+<!--        app:layout_constraintStart_toStartOf="@+id/main_top_bar"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/main_top_bar" />-->
+
+    <TextView
+        android:id="@+id/user_anonymous_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/anonymous_string"
+        app:layout_constraintStart_toStartOf="@+id/user_anonymous_image"
+        app:layout_constraintTop_toBottomOf="@+id/user_anonymous_image" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/user_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/user_anonymous_test"
+        app:layout_constraintTop_toBottomOf="@+id/user_anonymous_test" />
+
+    <Button
+        android:id="@+id/user_logout_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/user_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_recyclerView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

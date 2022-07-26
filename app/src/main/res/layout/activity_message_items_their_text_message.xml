@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/theirChat_layout"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingVertical="10dp"
+    tools:targetApi="o">
+
+
+    <TextView
+        android:id="@+id/theirChat_messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chat_bubble_outgoing_circle"
+        android:layout_marginStart="7.5dp"
+        android:elevation="2dp"
+        android:padding="11dp"
+        android:textColor="@android:color/black"
+        android:maxEms="13"
+        android:textSize="13sp"
+        android:singleLine="false"
+        android:longClickable="true"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <TextView
+        android:id="@+id/theirChat_timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/theirChat_messageTextView"
+        android:textSize="10sp"
+        />
+
+</RelativeLayout>

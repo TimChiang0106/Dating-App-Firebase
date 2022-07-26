@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myChat_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingVertical="10dp"
+    tools:targetApi="o">
+
+    <TextView
+
+        android:id="@+id/myChat_messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/chat_bubble_incoming_circle"
+        android:layout_marginEnd="7.5dp"
+        android:elevation="2dp"
+        android:padding="11dp"
+        android:textColor="@android:color/black"
+        android:maxEms="13"
+        android:textSize="13sp"
+        android:singleLine="false"
+        android:longClickable="true"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <TextView
+        android:id="@+id/myChat_readTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7.5dp"
+        android:textSize="10.5sp"
+        app:layout_constraintBottom_toTopOf="@id/myChat_timeTextView"
+        app:layout_constraintEnd_toStartOf="@id/myChat_messageTextView"
+        />
+    <TextView
+        android:id="@+id/myChat_timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7.5dp"
+        android:textSize="10.5sp"
+        app:layout_constraintEnd_toStartOf="@id/myChat_messageTextView"
+        app:layout_constraintBottom_toBottomOf="parent"        />
+</androidx.constraintlayout.widget.ConstraintLayout>
